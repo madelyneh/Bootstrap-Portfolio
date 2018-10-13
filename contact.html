@@ -11,118 +11,100 @@
 
 <body>
 
-    <header class="masthead" class="navbar navbarexpland-lg">
+    <header class="masthead">
         <div class="container">
-
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="index.html">Madelyn Helton</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                    <a class="nav-item nav-link" href="#">About</a>
-                    <a class="nav-item nav-link" href="#">Portfolio</a>
-                    <a class="nav-item nav-link" href="#">Contact</a>
+            <div class="row">
+            
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                            <a id="logo" class="float-left" href="../Bootstrap-Portfolio/index.html">Madelyn Helton</a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="col-md-3 order-3 order-md-3">
+                                <h4></h4>
+                            </div>
+                            <div class="col-md-2 order-3 order-md-3">
+                                    <h4></h4>
+                                </div>
+                            <div class="collapse navbar-collapse col-md-3 order-3 order-md-5" id="navbarNavAltMarkup">
+                                <div class="navbar-nav ">
+                                    <a class="nav-item nav-link" href="../Bootstrap-Portfolio/index.html">About</a>
+                                    <a class="nav-item nav-link" href="../Bootstrap-Portfolio/portfolio.html">Portfolio</a>
+                                    <a class="nav-item nav-link" href="../Bootstrap-Portfolio/contact.html">Contact</a>
+                            
+                                </div>
+                            </div>
+                    </nav>
                 
-                    </div>
-                </div>
-        </nav>
-          <!-- 
-            <nav>
-              <a href="index.html" id="logo">Madelyn Helton</a>
-              <a href="index.html">About</a>
-              <a href="../Bootstrap-Portfolio/portfolio.html">Portfolio</a>
-              <a href="../Bootstrap-Portfolio/contact.html">Contact</a>
-            </nav>
-
-           -->  
+            </div>       
 
         </div>
     </header>
                 
     <div id="main-container" class="container">
-        <section class="main-section">
-
-                <h1>Contact</h1>
         
-                <hr>
-                <div class="container">
-                        <div class="row">
-                          
-                          <div class="col-sm-8 ">
-                                <form>
-                                        <div class="form-group">
-                                          <label for="exampleInputEmail1">Email address</label>
-                                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                                          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                                        </div>
-                                        <div class="form-group">
-                                          <label for="exampleInputPassword1">Password</label>
-                                          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                                        </div>
-                                        
-                                        <button type="submit" class="btn btn-primary">Submit</button>
-                                </form>
+
+        <div class="row" >
+            <section class="main-section">
                 
-                          </div>
-                            <div class="col-sm-4">
+                
+                <div class="col-sm-12 ">
+                    <form>
+                            <h1>Contact</h1>
+
+                            <hr>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Name</label>
+                                <input type="text" class="form-control"  placeholder="Madelyn Helton">
                                 
-                                    <section class="sidebar">
-                                        <div id="connect">
-                                                <h2>Connect with Me</h2>
-                    
-                                                <img src="assets/images/github-image.jpg" class="social" alt="GitHub">
-                                                <img src="assets/images/linkedin-image.png" class="social" alt="LinkedIn">
-                                                <img src="assets/images/stackoverflow-image.png" class="social" alt="Stack Overflow">
-                    
-                                        </div>
-                                </section>
-                
                             </div>
+                            <div class="form-group">
+                                    <label for="exampleInputEmail1">Email address</label>
+                                    <input type="email" class="form-control"  placeholder="example@email.com">
+                                    
+                                    </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Message</label>
+                                <textarea type="password" id="exampleInputPassword1" placeholder="Message"></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+    
+                </div>
+            </section>
+
+                <div class="col-sm-4">
+                    
+                    <section class="sidebar">
+                        <div id="connect">
+                                <h2>Connect with Me</h2>
+    
+                                <img src="assets/images/github-image.jpg" class="social" alt="GitHub">
+                                <img src="assets/images/linkedin-image.png" class="social" alt="LinkedIn">
+                                <img src="assets/images/stackoverflow-image.png" class="social" alt="Stack Overflow">
+    
                         </div>
-                      </div>
+                    </section>
+    
+                </div>
+        </div>
                 
-            <!--   <form id="contact-form">
-                    <ul>
-                        <li>
-                            <label for="name">Name</label>
-                            <input type="text" name="name" id="contact-name" placeholder="Madelyn Helton" required="required">
-
-                        </li>
-
-                        <li>
-                                <label for="name">Email</label>
-                                <input type="text" name="email" id="email" placeholder="example@email.com" required="required">
-
-                        </li>
-                        <li>
-                                <label for="message">Message</label>
-                                <textarea id="message" name="message" required="required"></textarea>
-
-                        </li>
-
-                        <input type="submit" name="submit">
-
-
-                    </ul>
-                </form>
-                -->
-
-                
-
-           </section>     
+           
        
     </div>
 
   
 
+    
+        <footer class="row">
+            
+            <div class="position-sticky col-sm-12">
+            Copyright &copy; 2018 Madelyn Helton
+            </div>
+            
+        </footer>
 
-  <footer>
-    <div class="container">
-      Copyright &copy; 2018 Madelyn Helton
-    </div>
-  </footer>
 </body>
 
 </html>
